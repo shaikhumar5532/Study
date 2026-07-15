@@ -1,12 +1,13 @@
-import { useState } from 'react'
-
+import UseStateInput from './React_Hooks/UseStateInput.jsx'
+import UseState from './React_Hooks/UseState.jsx'
+import UseStateRunOnce from './React_Hooks/UseEffectRunOnce.jsx'
 
 function App() {
-  
-
   return (
     <>
-      <h1>React Hooks</h1>
+      <UseStateInput/>
+      <UseState/>
+      <UseStateRunOnce/>
     </>
   )
 }
